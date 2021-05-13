@@ -419,7 +419,7 @@ flash_dtbo() {
   done;
 
   if [ "$dtbo" ]; then
-    dtboblock=/dev/block/bootdevice/by-name/dtbo$slot;
+    dtboblock=/dev/block/by-name/dtbo$slot;
     if [ ! -e "$dtboblock" ]; then
       abort "dtbo partition could not be found. Aborting...";
     fi;
