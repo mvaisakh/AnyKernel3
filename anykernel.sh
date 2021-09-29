@@ -43,11 +43,11 @@ else
 fi
 
 if [ $os == "custom" ]; then
-  if [ -f $home/Image.gz ]; then
-    mv $home/Image.gz $home/Image.gz-dtb;
+  if [ -f $home/Image ]; then
+    mv $home/Image $home/Image-dtb;
   fi;
   if [ -f $home/dtb ]; then
-    cat $home/dtb >> $home/Image.gz-dtb;
+    cat $home/dtb >> $home/Image-dtb;
   fi;
 fi;
 
