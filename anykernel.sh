@@ -55,9 +55,7 @@ fi;
 dump_boot;
 
 # Override DTB
-if [ $os == "stock" ]; then
-  mv $home/dtb $home/split_img/;
-fi
+mv $home/dtb $home/split_img/;
 
 # Optimize F2FS extension list (@arter97)
 if mountpoint -q /data; then
