@@ -15,7 +15,7 @@ device.name2=cannong
 device.name3=
 device.name4=
 device.name5=
-supported.versions=
+supported.versions=11,12
 supported.patchlevels=
 '; } # end properties
 
