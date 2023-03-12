@@ -286,6 +286,11 @@ do_devicecheck() {
         match=1;
         break 2;
       fi;
+      if [ "$devicename" == "martini" || "$devicename" == "OnePlus9RT"]; then
+        echo "OnePlus 9RT detected, matching dtbo...";
+        mv martini-dtbo.img dtbo.img;
+        mv martini-dtb dtb;
+      fi;
     done;
   done;
   if [ ! "$match" ]; then

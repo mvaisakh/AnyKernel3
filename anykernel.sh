@@ -14,7 +14,8 @@ device.name1=OnePlus9Pro
 device.name2=OnePlus9
 device.name3=lemonade
 device.name4=lemonadep
-device.name5=
+device.name5=OnePlus9RT
+device.name6=martini
 supported.versions=
 supported.patchlevels=
 '; } # end properties
