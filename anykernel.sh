@@ -16,6 +16,7 @@ device.name3=lemonade
 device.name4=lemonadep
 device.name5=OnePlus9RT
 device.name6=martini
+device.name7=OP5155L1
 supported.versions=
 supported.patchlevels=
 '; } # end properties
