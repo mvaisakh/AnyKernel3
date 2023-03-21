@@ -17,6 +17,12 @@ device.name4=lemonadep
 device.name5=OnePlus9RT
 device.name6=martini
 device.name7=OP5155L1
+device.name8=RMX3360
+device.name9=Realme GT Master Edition
+device.name10=RMX3363
+device.name11=lunaa
+device.name12=RE54ABL1
+device.name13=RMX3361
 supported.versions=
 supported.patchlevels=
 '; } # end properties
